@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #121212;
+}
+
+h1 {
+  font-family: "Merienda One", cursive;
+  color: #fc9e22;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 5px 2px 2px #121212;
+  font-size: 4rem;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.top .colorTop {
+  height: 15px;
+  background-color: #fc9e22;
+  width: 100%;
+  --bs-gutter-x:0px;
+}
+.top .topmd {
+  background-image: url(../Images/cube-1655118_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #121212;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid white;
+  --bs-gutter-x:0px;
+}
+.top .topbottom {
+  height: 30px;
+  background-color: #121212;
+  width: 100%;
+}
+.top .topbottom img {
+  height: 29px;
+  width: 25px;
+  float: right;
+}
+.top .topbottom a {
+  opacity: 0;
+}
+.top .topbottom a:hover {
+  opacity: 1;
+}
+
+.form {
+  margin-top: 25px;
+  text-align: center;
+}
+.form select {
+  padding: 10px;
+  background-color: #121212;
+  border: 1px solid #fc9e22;
+  border-radius: 5px;
+  color: white;
+}
+.form .nbde {
+  padding: 10px;
+  background-color: #121212;
+  border: 1px solid #fc9e22;
+  border-radius: 5px;
+  color: white;
+}
+.form .left {
+  text-align: left;
+  margin-top: 15px;
+}
+.form .right {
+  text-align: right;
+  margin-top: 15px;
+}
+.form label {
+  margin-top: 15px;
+}
+.form .lancer {
+  margin-top: 35px;
+  padding: 10px;
+  height: 60px;
+  background-color: #fc9e22;
+  border: 1px solid #fc9e22;
+  border-radius: 100%;
+  color: #121212;
+  font-weight: bold;
+}
+
+.resultat {
+  text-align: center;
+  margin-top: 25px;
+}
+.resultat .formde {
+  display: inline-block;
+  text-align: center;
+  margin-top: 35px;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid #fc9e22;
+  border-radius: 5px;
+  color: #121212;
+  font-weight: bold;
+}
+.resultat .trait {
+  margin-top: 25px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  width: 80%;
+}
+.resultat .face {
+  margin-top: 20px;
+}
+
+.resultat2 {
+  text-align: center;
+  margin-top: 25px;
+  padding-bottom: 15px;
+}
+
+footer {
+  background-color: #fc9e22;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 15px;
+}
+footer p {
+  font-size: 0.7rem;
+  color: #121212;
+}
+
+@media screen and (max-width: 767px) {
+  #slider {
+    display: none;
+  }
+
+  .left {
+    text-align: center !important;
+  }
+
+  .right {
+    text-align: center !important;
+  }
+
+  h1 {
+    font-size: 36pt;
+  }
+}
+@media screen and (max-width: 545px) {
+  #slider {
+    display: none;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  .topmd {
+    height: 100px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

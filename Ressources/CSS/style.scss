@@ -1,0 +1,248 @@
+// RESET CSS
+// ===============================================================
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// VARIABLES
+// ===============================================================
+
+$gris: #121212;
+$orange: #fc9e22;
+
+// GLOBAL
+// =============================================================== 
+body, html {
+    height:100%;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: $gris;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    color: $orange;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 2px 2px $gris;
+    font-size: 4rem;
+}
+
+h3 {
+
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+p {
+    text-align: center;
+}
+
+// HEADER
+// =============================================================== 
+
+.top {
+    .colorTop {
+        height: 15px;
+        background-color: $orange;
+        width: 100%;
+        --bs-gutter-x:0px;
+    }
+
+    .topmd {
+        background-image: url(../Images/cube-1655118_1280.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        background-color: $gris;
+        width: 100%;
+        height: 200px;
+        border-bottom: 1px solid white;
+        --bs-gutter-x:0px;
+    }
+
+    .topbottom {
+        height: 30px;
+        background-color: $gris;
+        width: 100%;
+
+
+
+        img {
+            height: 29px;
+            width: 25px;
+            float: right;
+        }
+
+        a {
+            opacity: 0;
+        }
+
+        
+        a:hover {
+            opacity: 1.0;
+
+        }
+    }
+}
+
+
+// Formulaire
+// =============================================================== 
+
+// section{
+//     position: relative;
+// }
+
+.form {
+    margin-top: 25px;
+    text-align: center;
+
+    select {
+        padding: 10px;
+        background-color: $gris;
+        border: 1px solid $orange;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .nbde {
+        padding: 10px;
+        background-color: $gris;
+        border: 1px solid $orange;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .left {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .right {
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    label {
+        margin-top: 15px;
+    }
+
+    .lancer {
+        margin-top: 35px;
+        padding: 10px;
+        height: 60px;
+        background-color: $orange;
+        border: 1px solid $orange;
+        border-radius: 100%;
+        color: $gris;
+        font-weight: bold;
+    }
+}
+
+// résultat
+// =============================================================== 
+
+.resultat {
+    text-align: center;
+    margin-top: 25px;
+
+    .formde {
+        display: inline-block;
+        text-align: center;
+        margin-top: 35px;
+        padding: 10px;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border: 1px solid $orange;
+        border-radius: 5px;
+        color: $gris;
+        font-weight: bold;
+    }
+
+    .trait {
+        margin-top: 25px;
+        display: inline-block;
+        border-bottom: 1px solid white;
+        width: 80%;
+    }
+
+    .face {
+        margin-top: 20px;
+    }
+}
+
+.resultat2 {
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+
+// FOOTER
+// ===============================================================
+footer{
+    background-color:$orange;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 15px;
+    
+    
+  
+        p {
+            // padding-top: 15px;
+        font-size: 0.7rem;
+        color: $gris;
+    }
+    
+}
+
+// MEDIA SCREEN 767
+// ===============================================================
+
+
+@media screen and (max-width: 767px) {
+    #slider {
+        display: none;
+    }
+
+    .left {
+        text-align: center !important;
+    }
+
+    .right {
+        text-align: center !important;
+    }
+
+    h1 {
+        font-size: 36pt;
+    }
+}
+
+// MEDIA SCREEN 545
+// ===============================================================
+
+
+@media screen and (max-width: 545px) {
+    #slider {
+        display: none;
+    }
+
+    h1 {
+        font-size: 24pt;
+    }
+
+    .topmd {
+
+        height: 100px!important;
+    }
+}
